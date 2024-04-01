@@ -169,6 +169,12 @@ body {
 	background-color: #A8D5D8 ;
 	position: relative;
 }
+
+#services .service__introduction {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: justify;
+}
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
@@ -266,7 +272,7 @@ input[type="submit"] {
 	}
 	#about-me p, #about-me .about-me__introduction {
 		width: 100%;
-	}
+	}	
 }
 
 @media all and (max-width: 1000px) {
@@ -325,6 +331,11 @@ input[type="submit"] {
 		bottom: 0;
 		right: 0;
 		z-index: -1;
+	}
+
+	#services .service__introduction {
+		width: 60%;
+		margin: 20px;		
 	}
 }
 
