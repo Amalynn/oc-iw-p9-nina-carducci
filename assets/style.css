@@ -172,9 +172,9 @@ body {
 
 #services .service__introduction {
 	max-width: 960px;
-	margin: 0 auto;
-	text-align: justify;
+	margin: 0 auto;	
 }
+
 #services .container::before{
 	content: ' ';
 	background-color: #1C6474;
